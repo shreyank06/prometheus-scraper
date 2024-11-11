@@ -1,0 +1,62 @@
+{
+    "PROMETHEUS_URL": "http://192.168.254.130:9090/prom/api/v1/query_range",
+    "queries_1": [
+        "phoenix_memory_cm_allocated_bytes",
+        "phoenix_memory_cm_chunksize_bytes",
+        "phoenix_memory_cm_chunk_count_total",
+        "phoenix_memory_cm_allocation_count_total",
+        "phoenix_memory_cm_max_used_chunks_per_pool_count",
+        "phoenix_memory_cm_used_chunk_count",
+        "phoenix_memory_cm_wasted_bytes",
+        "phoenix_memory_pool_create_count",
+        "phoenix_memory_pool_destroy_count",
+        "open5G_bt_subscriber_count"
+    ],
+    "queries": [
+        "open5G_bt_subscriber_count",
+        "phoenix_memory_cm_chunksize_bytes",
+        "phoenix_memory_cm_chunk_count_total",
+        "phoenix_memory_pool_create_count",
+        "phoenix_memory_pool_destroy_count",
+        "phoenix_memory_cm_max_used_chunks_per_pool_count"
+    ],
+    "columns_to_remove": [
+        "subscriber_count_Idle",
+        "subscriber_count_Pending",
+        "subscriber_count_Unregistered"
+    ],
+    "transform_data": true,
+    "start_time": "2024-01-29T11:10:00",
+    "end_time": "2024-01-29T11:10:30",
+    "step": "1s",
+    "component": ["smf","amf", "upf1", "ausf", "udm"],
+    "regroup_columns":true,
+    "retrain_model":false,
+    "get_csv": false,
+    "convert_json_to_features":false,
+
+    "window_width": {
+        "input_width": 30,
+        "label_width": 30,
+        "shift": 30
+    },
+    
+    "label_columns": "Per UE packetP mempool needed",
+    "models":
+    {
+        "linear":false,
+        "densed":false,
+        "convolutional":false,
+        "lstm":false,
+        "multi_step_linear_single_shot": false,
+        "multi_step_densed_model": false,
+        "multi_step_convolutional_model": true,
+        "multi_step_lstm_model": false,
+        "autoregressive_lstm": false
+    },
+    "convert_to_pca":false,
+    "check_corelation": false,
+    "static_predictions": true,
+    "plot_prediction": false
+}
+

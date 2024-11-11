@@ -1,0 +1,112 @@
+{
+    "amf": {
+        "cm_globalP_amf": {
+            "static memory used": "0.08203125mb or 84.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_packetP_amf": {
+            "static memory used": "0.05078125mb or 52.0kb",
+            "memory per UE used": "0.00595703125mb or 6.1kb",
+            "buffer memory": "0.027421875mb or 28.08kb"
+        },
+        "cm_sessionP_amf": {
+            "static memory used": "0.0390625mb or 40.0kb",
+            "memory per UE used": "1.953125e-05mb or 0.02kb",
+            "buffer memory": "0.00212890625mb or 2.18kb"
+        },
+        "cm_transactionP_amf": {
+            "static memory used": "0.0390625mb or 40.0kb",
+            "memory per UE used": "5.859375e-05mb or 0.06kb",
+            "buffer memory": "0.0040625mb or 4.16kb"
+        }
+    },
+    "ausf": {
+        "cm_globalP_ausf": {
+            "static memory used": "0.10546875mb or 108.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_packetP_ausf": {
+            "static memory used": "0.0390625mb or 40.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_sessionP_ausf": {
+            "static memory used": "0.0078125mb or 8.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_transactionP_ausf": {
+            "static memory used": "0.01953125mb or 20.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        }
+    },
+    "smf": {
+        "cm_globalP_smf": {
+            "static memory used": "0.1376953125mb or 141.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_packetP_smf": {
+            "static memory used": "0.20703125mb or 212.0kb",
+            "memory per UE used": "0.013671875mb or 14.0kb",
+            "buffer memory": "0.01181640625mb or 12.1kb"
+        },
+        "cm_sessionP_smf": {
+            "static memory used": "0.15234375mb or 156.0kb",
+            "memory per UE used": "0.0001171875mb or 0.12kb",
+            "buffer memory": "0.07939453125mb or 81.3kb"
+        },
+        "cm_transactionP_smf": {
+            "static memory used": "0.02734375mb or 28.0kb",
+            "memory per UE used": "5.859375e-05mb or 0.06kb",
+            "buffer memory": "9.765625e-05mb or 0.1kb"
+        }
+    },
+    "udm": {
+        "cm_globalP_udm": {
+            "static memory used": "0.078125mb or 80.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_packetP_udm": {
+            "static memory used": "0.033203125mb or 34.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_sessionP_udm": {
+            "static memory used": "0.001953125mb or 2.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_transactionP_udm": {
+            "static memory used": "0.0234375mb or 24.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        }
+    },
+    "upf1": {
+        "cm_globalP_upf1": {
+            "static memory used": "0.12109375mb or 124.0kb",
+            "memory per UE used": "no increase in memory after static memory",
+            "buffer memory": "no increase in memory after static memory"
+        },
+        "cm_packetP_upf1": {
+            "static memory used": "0.064849853515625mb or 66.40625kb",
+            "memory per UE used": "0.007863044738769531mb or 8.0517578125kb",
+            "buffer memory": "0.03258705139160156mb or 33.369140625kb"
+        },
+        "cm_sessionP_upf1": {
+            "static memory used": "0.041015625mb or 42.0kb",
+            "memory per UE used": "0.0001171875mb or 0.12kb",
+            "buffer memory": "0.04115234375mb or 42.14kb"
+        },
+        "cm_transactionP_upf1": {
+            "static memory used": "0.009765625mb or 10.0kb",
+            "memory per UE used": "1.953125e-05mb or 0.02kb",
+            "buffer memory": "3.90625e-05mb or 0.04kb"
+        }
+    }
+}

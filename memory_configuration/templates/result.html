@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Needed for UEs</title>
+</head>
+<body>
+    <h1>Memory Needed for {{ num_ues }} UEs</h1>
+    <ul>
+        {% for memtype, memory_details in memory_needed.items() %}
+            <li>{{ memtype }}:</li>
+            <ul>
+                {% for ue, memory in memory_details.items() %}
+                    <li>{{ ue }}: <b>{{ memory[0] }}</b>, <b>{{ memory[1] }}</b></li> <!-- Highlighting values in tuple -->
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Calculator</a>
+</body>
+</html>

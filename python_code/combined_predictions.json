@@ -1,0 +1,42 @@
+{
+    "Total UEs Attached so far": [
+        "110 ues"
+    ],
+    "smf": {
+        "component": "smf",
+        "logs": [
+            " Total memory left for cm_packetP_smf mempool is 39.82 mb, total memory allocated 51.18 mb.",
+            " Based on total allocated memory for cm_packetP_smf mempool, max_ues_possible 495.64 UEs.",
+            " Total memory left for cm_sessionP_smf mempool is 150.31 mb, total memory allocated 159.18 mb.",
+            " Based on total allocated memory for cm_sessionP_smf mempool, max_ues_possible 1975.71 UEs."
+        ]
+    },
+    "amf": {
+        "component": "amf",
+        "logs": [
+            " Total memory left for cm_packetP_amf mempool is 63.12 mb, total memory allocated 66.81 mb.",
+            " Based on total allocated memory for cm_packetP_amf mempool, max_ues_possible 1990.83 UEs.",
+            " Total memory left for cm_sessionP_amf mempool is 4.04 mb, total memory allocated 4.30 mb.",
+            " Based on total allocated memory for cm_sessionP_amf mempool, max_ues_possible 1861.54 UEs.",
+            " Total memory left for cm_transactionP_amf mempool is 31.53 mb, total memory allocated 32.00 mb.",
+            " Based on total allocated memory for cm_transactionP_amf mempool, max_ues_possible 7447.27 UEs."
+        ]
+    },
+    "upf1": {
+        "component": "upf1",
+        "logs": [
+            " Total memory left for cm_packetP_upf1 mempool is 123.56 mb, total memory allocated 128.00 mb.",
+            " Based on total allocated memory for cm_packetP_upf1 mempool, max_ues_possible 3169.53 UEs.",
+            " Total memory left for cm_transactionP_upf1 mempool is 127.99 mb, total memory allocated 128.00 mb.",
+            " Based on total allocated memory for cm_transactionP_upf1 mempool, max_ues_possible 1201493.25 UEs.",
+            " Total memory left for cm_sessionP_upf1 mempool is 123.48 mb, total memory allocated 128.00 mb.",
+            " Based on total allocated memory for cm_sessionP_upf1 mempool, max_ues_possible 3114.02 UEs."
+        ]
+    },
+    "In total UE count predicted based on error in next 30 seconds is 148": [
+        "148"
+    ],
+    "Current system can accommodate": [
+        "148 ues"
+    ]
+}
