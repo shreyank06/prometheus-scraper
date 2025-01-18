@@ -1,4 +1,5 @@
-
+### Introduction
+This repository contains a Prometheus Scraper that performs ETL (Extract, Transform, Load) operations on metrics data from Prometheus endpoints, followed by analysis and forecasting. Designed for monitoring and observability workflows, it automates data extraction, processing, and predictive insights. 
 
 ### Usage for data collection
 
